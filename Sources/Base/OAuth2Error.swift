@@ -233,7 +233,7 @@ public enum OAuth2Error: Error, CustomStringConvertible, Equatable {
 			return "No registration URL defined"
 		
 		case .notUsingTLS:
-			return "You MUST use HTTPS/SSL/TLS"
+			return "You MUST use HTTPS/SSL/TLS? really?"
 		case .unableToOpenAuthorizeURL:
 			return "Cannot open authorize URL"
 		case .invalidRequest:
